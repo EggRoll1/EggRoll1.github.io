@@ -23,7 +23,7 @@ header {
 	background: url('/img/space-bg.png') bottom no-repeat transparent;
 	background-size: cover;
 }
-header,.header__background {
+header {
 	position: fixed;
 	display: block;
 	width: 100%;
@@ -37,14 +37,16 @@ header,.header__background {
 	padding-top:108px;
 }
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-  background: url('/img/moon.png') bottom no-repeat transparent;
+	height: 100%;
+	background: url('/img/moon.png') bottom no-repeat transparent;
+	background-size: cover;
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 75%;
+	top: 0;
+	left: 0;
+	z-index: 9;
 }
 </style>
 </head>
