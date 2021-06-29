@@ -6,6 +6,9 @@
 <head>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yusei+Magic&display=swap');
+html, body {
+	min-height: 100%
+}
 p {
 	font-family: 'Roboto', sans-serif;
 	color: white;
@@ -16,8 +19,9 @@ h1 {
 }
 body {
 	background-color: black;
-	background-repeat: no-repeat;
-	background-color: #000;
+	background-image: url(/img/space-bg.png), url(/img/moon.png), url(filler.png);
+	background-position: center top, center bottom, center center;
+	background-repeat: no-repeat, no-repeat, repeat-y;
 }
 
 </style>
