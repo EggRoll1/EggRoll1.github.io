@@ -1,0 +1,39 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #172336; 
+}
+div#wrapperHeader {
+ width:100%;
+ height:1032px; /* height of the background image? */
+ background:url(img/earth.png) repeat-x 0 0;
+ text-align:center;
+}
+
+div#wrapperHeader div#header {
+ width:1000px;
+ height:200px;
+ margin:0 auto;
+}
+
+div#wrapperHeader div#header img {
+ width:993; /* the width of the logo image */
+ height:398; /* the height of the logo image */
+ margin:0 auto;
+}
