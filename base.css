@@ -15,10 +15,23 @@
   border-radius: 10px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yusei+Magic&display=swap');
+body {background-color: black;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+h1 {
+	font-family: 'Yusei Magic', sans-serif;
+	color: white;
+}
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #172336; 
 }
+
 div#wrapperHeader {
  width:100%;
  height:1032px; /* height of the background image? */
@@ -36,16 +49,4 @@ div#wrapperHeader div#header img {
  width:993; /* the width of the logo image */
  height:398; /* the height of the logo image */
  margin:0 auto;
-}
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yusei+Magic&display=swap');
-body {background-color: black;
-
-}
-p {
-	font-family: 'Roboto', sans-serif;
-	color: white;
-}
-h1 {
-	font-family: 'Yusei Magic', sans-serif;
-	color: white;
 }
