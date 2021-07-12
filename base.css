@@ -37,3 +37,15 @@ div#wrapperHeader div#header img {
  height:398; /* the height of the logo image */
  margin:0 auto;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yusei+Magic&display=swap');
+body {background-color: black;
+
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+h1 {
+	font-family: 'Yusei Magic', sans-serif;
+	color: white;
+}
