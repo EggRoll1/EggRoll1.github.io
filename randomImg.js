@@ -11,4 +11,4 @@
   }
 
   
-document.getElementById('area').innerHTML= img;
+document.getElementById('randomImg').innerHTML= img;
