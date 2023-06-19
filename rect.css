@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+.r2 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 959px;
+  top: 799px;
+  width: 201px;
+  height: 210px;
+  z-index: 23;
+}
+.r3 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1405px;
+  top: 799px;
+  width: 201px;
+  height: 210px;
+  z-index: 22;
+}
+.r4 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1182px;
+  top: 799px;
+  width: 201px;
+  height: 210px;
+  z-index: 21;
+}
+.r5 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 959px;
+  top: 1291px;
+  width: 201px;
+  height: 210px;
+  z-index: 20;
+}
+.r6 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1405px;
+  top: 1291px;
+  width: 201px;
+  height: 210px;
+  z-index: 19;
+}
+.r7 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1182px;
+  top: 1291px;
+  width: 201px;
+  height: 210px;
+  z-index: 18;
+}
+.r8 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 959px;
+  top: 1045px;
+  width: 201px;
+  height: 210px;
+  z-index: 17;
+}
+.r9 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1405px;
+  top: 1045px;
+  width: 201px;
+  height: 210px;
+  z-index: 16;
+}
+.r10 {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1182px;
+  top: 1045px;
+  width: 201px;
+  height: 210px;
+  z-index: 15;
+}

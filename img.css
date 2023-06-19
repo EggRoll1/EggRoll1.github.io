@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS for text color and Images*/
+.imgBlock{
+	opacity: 1;
+	transition: .5s ease;
+	height: 100%; 
+	width: 100%; 
+	object-fit: cover;
+}
+.imgBlock:hover {
+	transition: .5s ease;
+	opacity: 0.33;
+}
+.imgFull {
+	opacity: 1;
+	transition: .5s ease;
+	height: 100%; 
+	width: 100%; 
+	object-fit: scale-down;
+}
+.imgFull:hover {
+	scale: 1.1;
+	filter: drop-shadow(0 0 0.75rem black);
+	z-index: 10;
+}

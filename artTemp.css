@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS for art page template */
+.Btri {
+  opacity: 1;
+  background-image: url("Btri.svg");
+  position: absolute;
+  left: -19px;
+  top: -148px;
+  width: 323px;
+  height: 871px;
+  z-index: -1;
+}
+.Btri:hover{
+	transition: .5s ease;
+	opacity: 0.33;
+}
+.Ptri {
+  opacity: 1;
+  background-image: url("Ptri.svg");
+  position: absolute;
+  left: 1595.5px;
+  top: 270px;
+  width: 269px;
+  height: 511px;
+  z-index: -1;
+}
+.Ptri:hover{
+	transition: .5s ease;
+	opacity: 0.33;
+}
+.ArtBoard {
+  border-width: 3px;
+  border-color: rgb(67, 188, 142);
+  border-style: solid;
+  background-color: rgb(18, 18, 18);
+  position: absolute;
+  left: 1102px;
+  top: 130px;
+  width: 698px;
+  height: 698px;
+  z-index: 3;
+}
+
+.Title {
+  text-shadow: 7px 0px 0px rgba(67, 188, 142);
+  font-size: 300px;
+  font-family: "Coolvetica";
+  color: rgb(231, 231, 231);
+  line-height: 0.107;
+  text-align: left;
+  position: absolute;
+  left: 80px;
+  top: 169px;
+  z-index: 4;
+}
+
+.Paragrpah {
+  font-size: 48px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(231, 231, 231);
+  line-height: 1.2;
+  position: absolute;
+  left: 67px;
+  top: 370px;
+  width: 957px;
+  height: 46px;
+  z-index: 5;
+}
+
+.for_more_info {
+  font-size: 30px;
+  font-family: "Lucida Sans Unicode";
+  color: rgb(231, 231, 231);
+  line-height: 1.2;
+  position: absolute;
+  left: 64px;
+  top: 606.648px;
+  width: 526px;
+  height: 46px;
+  z-index: 6;
+}
+
+body {
+	background-color: #121212;
+}
+
