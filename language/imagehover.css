@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+       .image-container {
+            display: flex;
+            justify-content: space-around; /* Evenly distribute images on any screen size */
+            width: 100%;
+        }
+
+        .image-box {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+        }
+
+    .image-box .hover-text {
+            position: absolute;
+            background: black;
+            color: white;
+            text-align: center;
+            opacity: 0;
+            white-space: nowrap;
+			font-size: 24px;
+        }
+
+
+        .image-box:hover .hover-text {
+            opacity: 1;
+        }
+
+
+        .image1 {
+            background-image: url("courseowrk image.png"); 
+
+        }
+
+        .image2 {
+            background-image: url("resume image.png"); 
+
+        }
+
+        .image3 {
+            background-image: url("studyabroad image.png"); 
+
+
+        }
+        .image1 .hover-text {
+            top: 10px;
+            left: -30px; /* Left corner */
+        }
+
+        .image2 .hover-text {
+            bottom: 10px;
+            right: -30px; /* Right corner */
+        }
+
+        .image3 .hover-text {
+            top: 10px;
+            right: -30px; /* Right corner */
+        }

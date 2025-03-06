@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationary Sidebar</title>
+<link href="css side bar.css" rel="stylesheet" type="text/css">
+<link href="imagehover.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="sidebar">
+        <div id="content-container">
+            <div class="name">Isaac Savereno</div>
+            <div class="subheading">Modern Language Japanese Emphasis</div>
+
+            <div class="section">
+                Graduating Spring 2025,<br>
+                A Modern Language Major,<br>
+                And an Art Minor.
+            </div>
+
+            <div class="contact-title">Contact</div>
+            <div class="contact-email">isavere@clemson.edu</div>
+        </div>
+
+        <div class="toggle-container">
+            <label>
+                <input type="checkbox" id="languageToggle" onclick="toggleLanguage()"> 日本語
+            </label>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="image-container">
+            <div class="image-box image1">
+                <div class="hover-text">Course Work</div>
+            </div>
+            <div class="image-box image2">
+                <div class="hover-text">Study Abroad</div>
+            </div>
+            <div class="image-box image3">
+                <div class="hover-text">Resume</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const translations = {
+            "Isaac Savereno": "アイザック",
+            "Modern Language Japanese Emphasis": "現代語学 日本語専攻",
+            "Graduating Spring 2025,": "2025年春卒業予定、",
+            "A Modern Language Major,": "現代語学専攻、",
+            "And an Art Minor.": "美術副専攻。",
+            "Contact": "連絡先",
+            "Course Work": "プレースホルダー1",
+            "Study Abroad": "プレースホルダー2",
+            "Resume": "プレースホルダー3"
+        };
+
+        function toggleLanguage() {
+            const isJapanese = document.getElementById('languageToggle').checked;
+            document.querySelectorAll('#content-container *:not(input)').forEach(element => {
+                const originalText = element.textContent.trim();
+                if (isJapanese) {
+                    element.textContent = translations[originalText] || originalText;
+                } else {
+                    const key = Object.keys(translations).find(key => translations[key] === originalText);
+                    element.textContent = key || originalText;
+                }
+            });
+        }
+    </script>
+</body>
+</html>

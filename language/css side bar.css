@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Myriad Pro', sans-serif;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 300px;
+            height: 100vh; /* all the way height */
+            position: fixed; /* fixed position */
+            left: 0;
+            top: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            background: #f0ead6;
+            border-right: 2px solid #2a2a2a;
+        }
+
+        .name {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .subheading {
+            font-size: 18px;
+            margin-bottom: 78px;
+        }
+
+        .section {
+            margin-bottom: 78px;
+        }
+
+        .contact-title {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .contact-email {
+            font-size: 18px;
+        }
+       .content {
+            margin-left: 320px; /* Ensure content does not overlap sidebar */
+            padding: 20px;
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+            box-sizing: border-box;
+            width: calc(100% - 320px); /* Take remaining width after sidebar */
+        }
